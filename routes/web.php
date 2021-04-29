@@ -29,9 +29,9 @@ Route::get('variables', function () {
 });
 Route::get('dates', function () {
     //Array-> Es una estructura de Datos-Almacenando 1 o más Datos.
-    $estudiantes = [    "Diego",
-                        "Matias",
-                        "Juan" ];
+    $estudiantes = ["DG" => "Diego",
+                    "MT" => "Matias",
+                    "JN" => "Juan" ];
     echo "<pre>";
     print_r($estudiantes);
     echo "<pre>";
